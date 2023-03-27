@@ -7,9 +7,9 @@ variable "schedule_expression" {
 # ===================================
 
 output "lambda_function" {
-  value = module.common.lambda_function
+  value = module.base.lambda_function
 }
 
 output "lambda_service_role" {
-  value = module.common.lambda_service_role
+  value = module.base.lambda_service_role
 }
